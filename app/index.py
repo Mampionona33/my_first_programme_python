@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import cgi 
+import cgi
 
 form = cgi.FieldStorage()
 print("Content-type: text/html; charset=utf-8\n")
@@ -12,10 +12,7 @@ html = """<!DOCTYPE html>
     <title>Mon programme</title>
 </head>
 <body>
-    <form action="index.py" method="post">
-        <input type="text" name="name" value="Votre nom" />
-        <input type="submit" name="send" value="Envoyer information au serveur">
-    </form> 
+    <p>Hello word</p> 
 </body>
 </html>
 """
